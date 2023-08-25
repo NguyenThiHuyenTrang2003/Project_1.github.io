@@ -32,3 +32,35 @@
     margin-top: 1rem;
     margin-left: 0.5rem;
 }
+
+/* mobile css */
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+    .contentLeft>img{
+        width: 100%;
+    }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    .contentLeft>img{
+        width: 100%;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    .contentLeft>img{
+        width: 100%;
+    }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+    .contentLeft>img{
+        width: 100%;
+    }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+    .contentLeft>img{
+        width: 100%;
+    }
+}
