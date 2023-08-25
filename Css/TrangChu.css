@@ -1,0 +1,297 @@
+.carousel-indicators>button {
+    margin-left: 10rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-image: url(../Images/trang-chu-20230814T023016Z-001/trang-chu/around.png);
+    height: 1.69rem;
+    width: 1.69rem;
+    background-color: rgb(246 246 246);
+    border-radius: 2px;
+}
+
+.pagination {
+    width: 20%;
+}
+
+.page-link {
+    border: none;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.title-1 {
+    position: absolute;
+    transform: translate(75%, 50%);
+}
+
+.title-1>h5 {
+    font-size: 1.8rem;
+    font-family: SVN-Athena;
+    color: #222;
+    margin-bottom: 5rem;
+}
+
+.title-1>p {
+    font-size: 0.9rem;
+    font-family: SVN-Athena;
+    color: #222;
+    width: 20rem;
+    text-align: justify;
+}
+
+.title-1>a {
+    text-decoration: none;
+    background-color: #aabc44;
+    font-size: 1.2rem;
+    font-family: SVN-Athena;
+    color: #222;
+    width: 11rem;
+    height: 2.95rem;
+}
+
+.pagination>.page-item {
+    border: none;
+}
+
+.page-item>p {
+    font-size: 1.2rem;
+    font-size: SVN-Athena;
+    color: #222222;
+}
+
+.text-center {
+    margin-left: 4rem;
+
+}
+
+.product-sen {
+    width: 7rem;
+}
+
+.product-la {
+    margin-left: 67rem;
+}
+
+.containerGT {
+    margin-top: -10rem;
+}
+
+.containerGT>.title {
+    background-image: url(../Images/trang-chu-20230814T023016Z-001/trang-chu/background2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 42rem;
+}
+
+.card-group {
+    width: 70%;
+    margin-left: 12rem;
+}
+
+.card {
+    border: none;
+    width: 11.75rem;
+    margin-right: 2.75rem;
+}
+
+.card:last-child {
+    margin-right: 0rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body>h5 {
+    font-size: 1.2rem;
+    font-family: SVN-Athena;
+    color: #222;
+}
+
+.card-body>p {
+    font-size: 0.7rem;
+    font-family: SVN-Athena;
+    color: #222;
+}
+
+.containerNN {
+    background-image: url(../Images/trang-chu-20230814T023016Z-001/trang-chu/bannernghenhan.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
+
+.content {
+    width: 60%;
+    margin-left: 10rem;
+    margin-top: -12rem;
+    margin-bottom: 7rem;
+}
+
+.form-control {
+    width: 41rem;
+    height: 3rem;
+    border-color: #aabc44;
+    border-radius: 0px;
+    margin-right: 1.6rem;
+}
+
+.btn-primary {
+    width: 10.9rem;
+    height: 2.95rem;
+    background-color: #aabc44;
+}
+
+form {
+    margin-top: 3.95rem;
+    margin-left: 5rem;
+}
+
+/* mobile css */
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+    .page-link>img {
+        width: 8rem;
+    }
+
+    .navbar-brand>img {
+        width: 10rem;
+    }
+
+    .product-sen {
+        width: 5rem;
+    }
+
+    .product-la {
+        width: 7rem;
+    }
+
+    .containerSP>nav>.pagination {
+        margin-left: 13rem;
+    }
+
+    .card-group {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .card {
+        margin-right: -2rem;
+    }
+
+    .card>img {
+        width: 7rem;
+    }
+
+    .card-body {
+        width: 9rem;
+    }
+
+    .nav-link>img {
+        width: 4rem;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    .containerSP>nav>.pagination {
+        margin-left: 15rem;
+    }
+
+    .title-1 {
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .page-link>img {
+        width: 10rem;
+    }
+
+    .page-link>span>img {
+        width: 2rem;
+        vertical-align: middle;
+    }
+
+    .product-sen {
+        width: 7rem;
+    }
+
+    .product-la {
+        width: 10rem;
+    }
+
+    .card-group {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .card>img {
+        width: 10rem;
+    }
+
+    .card-body {
+        width: 10rem;
+    }
+
+    .title-1 {
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+
+    .carousel-item>.title-1>h5 {
+        margin-top: -3rem;
+    }
+
+    .carousel-item>.title-1>p {
+        margin-top: 6rem;
+    }
+
+    .menu>nav {
+        margin-left: 7rem;
+    }
+
+    .menu>.col-md-3 {
+        margin-right: -21rem;
+    }
+
+    .nav-link>img {
+        width: 2rem;
+    }
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    .containerSP>nav>.pagination {
+        margin-left: 13rem;
+    }
+
+    .containerNN {
+        margin-top: 5rem;
+    }
+
+    .containerMN {
+        margin-bottom: -5rem;
+    }
+
+    .card {
+        margin-left: 2rem;
+        margin-right: -6rem;
+    }
+
+    .card>img {
+        width: 10rem;
+    }
+
+    .card-body {
+        width: 12rem;
+    }
+
+    .nav-link>img {
+        width: 4rem;
+    }
+}

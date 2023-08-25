@@ -1,0 +1,34 @@
+.contentLeft{
+    width: 56%;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
+.contentLeft>h2{
+    font-size: 1.8rem;
+    font-family: SVN-Athena;
+    color: #899a29;
+    margin-bottom: 2rem;
+}
+.contentLeft>p{
+    font-size: 0.9rem;
+    font-family: SVN-Athena;
+    color:#222;
+    text-align: justify;
+    margin-top: 1rem;
+}
+.contentRight{
+    width: 30%;
+    margin-left: 5rem;
+}
+.BVnho{
+    display:flex;
+    margin-bottom: 2rem;
+}
+.BVnho>p{
+    font-size: 0.9rem;
+    font-family: SVN-Athena;
+    color:#222;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}

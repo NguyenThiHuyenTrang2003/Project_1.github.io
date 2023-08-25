@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 20px;
+}
+
+.body-TT {
+    background-image: url(../Images/tin-tuc-20230814T023007Z-001/tin-tuc/background-tintuc.png);
+    background-size: 100%;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+}
+
+.card-group m-lg-5 mb-3 {
+    justify-content: space-between;
+    margin-right: 0rem;
+}
+
+.card {
+    margin-right: 4.75rem;
+    margin-bottom: 1.3rem;
+    border: none;
+
+}
+
+.card-group>.card:last-child {
+    margin-right: 0rem;
+}
+
+.card-body>h5>a {
+    font-size: 1.2rem;
+    font-family: SVN-Athena;
+    color: #899a29;
+    text-decoration: none;
+}
+
+.card-body>p {
+    font-size: 0.7rem;
+    font-family: SVN-Athena;
+    color: #222222;
+}
+
+/* mobile css */
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+
+    html,
+    body {
+        font-size: 11px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+    .navbar-brand>img{
+        width: 15rem;
+    }
+    .footer {
+        width: 100%;
+    }
+
+    .content {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 13rem;
+    }
+    .pagination text-center{
+        margin-left: 6rem;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 5px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 3px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}
+
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+    html {
+        font-size: 2.3px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 20px;
+}
+
+.headGT {
+    background-image: url(../Images/gioi-thieu-20230814T023028Z-001/gioi-thieu/banner.jpg);
+    background-size: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+}
+
+.headGT>img {
+    width: 21.7rem;
+    height: 4.65rem;
+    margin-left: 12rem;
+    margin-top: 10rem;
+}
+
+.contentGT>.p1 {
+    text-align: justify;
+    width: 70%;
+    margin-left: 10.5rem;
+}
+
+.p1>p,
+img {
+    font-size: 1.2rem;
+    font-family: SVN-Athena;
+    color: #222;
+}
+
+/* mobile css */
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+
+    html,
+    body {
+        font-size: 11px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .navbar-brand>img {
+        width: 10rem;
+    }
+
+    .nav-link>img {
+        width: 4rem;
+    }
+
+    .contentGT>.p1 {
+        text-align: justify;
+        width: 70%;
+        margin-left: 14.5rem;
+    }
+
+    .contentGT>.p1>img {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .headGT {
+        background-image: url(../Images/gioi-thieu-20230814T023028Z-001/gioi-thieu/banner.jpg);
+        background-size: 100%;
+        height: 38rem;
+        background-repeat: no-repeat;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .nav-link>img {
+        width: 4rem;
+    }
+    .contentGT>.p1 {
+        text-align: justify;
+        width: 70%;
+        margin-left: 14.5rem;
+    }
+
+    .contentGT>.p1>img {
+        width: 100%;
+    }
+
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 5px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .headSP>img {
+        width: 2rem;
+    }
+
+    .headSP>p {
+        font-size: 1rem;
+    }
+
+    .locSP {
+        width: 45%;
+    }
+
+    .anhSanPham {
+        margin-right: 5rem;
+    }
+
+    .nav-link>img {
+        width: 4rem;
+    }
+    .contentGT>.p1 {
+        text-align: justify;
+        width: 70%;
+        margin-left: 14.5rem;
+    }
+
+    .contentGT>.p1>img {
+        width: 100%;
+    }
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 3px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .nav-link>img {
+        width: 4rem;
+    }
+    .contentGT>.p1 {
+        text-align: justify;
+        width: 70%;
+        margin-left: 14.5rem;
+    }
+
+    .contentGT>.p1>img {
+        width: 100%;
+    }
+}
+
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+    html {
+        font-size: 2.3px;
+    }
+
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+
+    header>.navbar {
+        width: 90%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+
+    .footer {
+        width: 90%;
+    }
+
+    .nav-link>img {
+        width: 4rem;
+    }
+    .contentGT>.p1 {
+        text-align: justify;
+        width: 70%;
+        margin-left: 14.5rem;
+    }
+
+    .contentGT>.p1>img {
+        width: 100%;
+    }
+    .headGT {
+        background-image: url(../Images/gioi-thieu-20230814T023028Z-001/gioi-thieu/banner.jpg);
+        background-size: 100%;
+        height: 41rem;
+        background-repeat: no-repeat;
+}
+}

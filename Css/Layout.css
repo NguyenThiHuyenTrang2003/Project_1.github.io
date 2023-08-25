@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,body {
+    font-size: 20px;
+}
+
+header {
+    max-width: 196rem;
+    margin: 0rem 10rem;
+}
+
+header>.navbar {
+    width: 100%;
+    /* position: fixed; */
+    margin: auto;
+    padding: 0.75rem 0;
+    /* text-align: center;
+    justify-content: space-between; */
+
+}
+
+header>.navbar>.container-fluid {
+    justify-content: space-between;
+
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    font-size: 0.9rem;
+    font-family: SVN-Athena;
+    /* color: #000; */
+
+}
+
+.title {
+    font-family: SVN-Athena;
+    color: black;
+}
+
+.font-48 {
+    font-size: 2.4rem;
+}
+
+
+    
+
+/* footer */
+.footer {
+    background-image: url(../Images/trang-chu-20230814T023016Z-001/trang-chu/fotter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    font-family: SVN-Athena;
+    color: #222222;
+}
+
+.nav-link .active {
+    font-size: 1.2rem;
+    color: #222222;
+    margin: 50px;
+}
+
+/* mobile css */
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+    html,body{
+        font-size: 14px;
+    }
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+    header>.navbar {
+        width: 100%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+}
+.footer{
+    width: 100%;
+}
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 8px;
+    }
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+    header>.navbar {
+        width: 100%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+    .footer{
+         width: 100%;
+    }
+   
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 5px;
+    }
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+    header>.navbar {
+        width: 100%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+    .footer{
+         width: 100%;
+    }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+    html{
+        font-size: 3px;
+    }
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+    header>.navbar {
+        width: 100%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+    .footer{
+         width: 100%;
+    }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+    html{
+        font-size: 2.3px;
+    }
+    header {
+        max-width: 100rem;
+        margin: 0rem 10rem;
+    }
+    header>.navbar {
+        width: 100%;
+        margin-left: 5rem;
+        padding: 0.75rem 0;
+    }
+    .footer{
+         width: 100%;
+    }
+}
